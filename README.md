@@ -10,11 +10,7 @@ A pair of Python scripts for extracting text, tables and OCR‑scanned content f
 2. [Features](#features)  
 3. [Note on Hindi OCR](#note-on-hindi-ocr)  
 4. [Requirements](#requirements)  
-5. [Installation](#installation)  
-6. [Usage](#usage)  
-   - [Version 1: Digital & Scanned PDF Extraction](#version-1-digital--scanned-pdf-extraction)  
-   - [Version 2: Hindi‑Enabled OCR](#version-2-hindi‑enabled-ocr)  
-7. [How It Works](#how-it-works)  
+5. [Installation](#installation)   
 
 ---
 
@@ -47,7 +43,7 @@ Version 2 extends Version 1 by passing `lang='hin'` to Tesseract for better Hi
 
 ## Note on Hindi OCR
 
-> **English extraction** works reliably for Latin‑script PDFs.  
+> **English extraction** works really well for Latin‑script PDFs.  
 > **Hindi OCR** (Version 2) may still miss or mis‑recognize some Hindi characters or ligatures—results can vary by document quality.
 
 ---
